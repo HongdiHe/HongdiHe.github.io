@@ -6,6 +6,8 @@
   <title>何宏荻 · He Hongdi — Java 后端开发工程师</title>
   <meta name="description" content="何宏荻个人主页 — Java 后端开发工程师，深圳大学 × 中国科学院上海有机化学研究所 2026届" />
   <link rel="canonical" href="https://hongdihe.github.io/" />
+  <link rel="alternate" hreflang="zh" href="https://hongdihe.github.io/" />
+  <link rel="alternate" hreflang="en" href="https://hongdihe.github.io/en.html" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="profile" />
@@ -489,9 +491,9 @@
 <img src="./pipeline.svg" alt="EduAgent 处理链路" style="max-width:100%;width:480px;display:block;margin:0 auto;" />
 
     <p style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);text-align:center;max-width:560px;line-height:1.7;">
-      cache_router 缓存命中时短路整条链路，跳过全部 LLM 调用；
-      rewrite 按复杂度动态生成 N 个变体（2-5），verify 与 evaluate 真正并行执行；
-      AgentState 作为节点间共享上下文，各节点无直接耦合。
+      缓存路由命中时短路整条链路，跳过全部 LLM 调用；
+      改写节点按复杂度动态生成 N 个变体（2-5），验证与评分真正并行执行；
+      各节点通过共享状态传递上下文，无直接耦合。
     </p>
   </div>
 </section>
@@ -504,7 +506,7 @@
   <h2 class="section-title">技术栈</h2>
   <div class="skills-grid">
     <div class="skill-group">
-      <div class="skill-group-title">Java Backend</div>
+      <div class="skill-group-title">Java 后端</div>
       <ul class="skill-list">
         <li>Spring Boot / MyBatis</li>
         <li>Netty / LMAX Disruptor</li>
@@ -513,7 +515,7 @@
       </ul>
     </div>
     <div class="skill-group">
-      <div class="skill-group-title">Distributed</div>
+      <div class="skill-group-title">分布式</div>
       <ul class="skill-list">
         <li>Redis / Caffeine 两级缓存</li>
         <li>Kafka 异步解耦</li>
@@ -522,7 +524,7 @@
       </ul>
     </div>
     <div class="skill-group">
-      <div class="skill-group-title">Storage / Search</div>
+      <div class="skill-group-title">存储 / 搜索</div>
       <ul class="skill-list">
         <li>MySQL / PostgreSQL</li>
         <li>ElasticSearch + IK 分词</li>
@@ -539,7 +541,7 @@
       </ul>
     </div>
     <div class="skill-group">
-      <div class="skill-group-title">Engineering</div>
+      <div class="skill-group-title">工程化</div>
       <ul class="skill-list">
         <li>Docker / Docker Compose</li>
         <li>Linux / Shell / Git</li>
@@ -607,7 +609,7 @@
     <a class="contact-card" href="mailto:hehongdi13702446933@foxmail.com">
       <span class="contact-icon">✉️</span>
       <div class="contact-info">
-        <div class="contact-label">Email</div>
+        <div class="contact-label">邮箱</div>
         <div class="contact-value">hehongdi13702446933@foxmail.com</div>
       </div>
     </a>
@@ -621,14 +623,14 @@
     <a class="contact-card" href="tel:+8613702446933">
       <span class="contact-icon">📱</span>
       <div class="contact-info">
-        <div class="contact-label">Phone</div>
+        <div class="contact-label">电话</div>
         <div class="contact-value">137-0244-6933</div>
       </div>
     </a>
     <div class="contact-card">
       <span class="contact-icon">💬</span>
       <div class="contact-info">
-        <div class="contact-label">WeChat</div>
+        <div class="contact-label">微信</div>
         <div class="contact-value">微信同号</div>
       </div>
     </div>
@@ -636,7 +638,7 @@
 </section>
 
 <footer>
-  <p>built by <span>何宏荻</span> · 2026届 · Java 后端 + AI 工程化</p>
+  <p>何宏荻 · 2026届 · Java 后端 + AI 工程化</p>
 </footer>
 
 <script>
