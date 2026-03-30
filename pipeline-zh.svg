@@ -25,13 +25,13 @@
   <text x="230" y="122" class="label" fill="#a78bfa">缓存路由</text>
   <text x="230" y="142" class="sub">查询 SwiftCache</text>
 
-  <!-- 分支：命中 → 左下角 -->
-  <path d="M 130,130 L 60,130 L 60,310" class="branch"/>
-  <text x="68" y="220" class="branch-label" text-anchor="start">命中</text>
+  <!-- 分支：命中 → 左侧 -->
+  <path d="M 130,130 L 40,130 L 40,195" class="branch"/>
+  <text x="48" y="166" class="branch-label" text-anchor="start">命中</text>
 
-  <!-- 直接返回（左侧，和 quality_check 同一行，不会和 OCR 重叠） -->
-  <rect x="10" y="310" width="130" height="48" class="node" fill="#1a2332" stroke="#22c55e" stroke-width="2"/>
-  <text x="75" y="334" class="label" fill="#22c55e">直接返回</text>
+  <!-- 直接返回 -->
+  <rect x="-30" y="195" width="130" height="48" class="node" fill="#1a2332" stroke="#22c55e" stroke-width="2"/>
+  <text x="35" y="219" class="label" fill="#22c55e">直接返回</text>
 
   <!-- 分支：未命中 → 往下 -->
   <line x1="230" y1="160" x2="230" y2="200" class="arrow"/>
